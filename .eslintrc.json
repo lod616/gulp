@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true
+},
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": "off",
+    "linebreak-style": "off",
+    "no-useless-concat": "off",
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": ["gulp/tasks/*.js", "gulpfile.js"]}]
+  }
+}
